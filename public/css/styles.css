@@ -1,0 +1,73 @@
+    #container {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .cell {
+        border-style: groove;
+    }
+    
+    .emptycell {
+        border-style: none;
+    }
+    
+    .title {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .footer {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 13px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .qlik {
+        display: block;
+        float: right;
+        z-index: 3;
+        position: absolute;
+        /*newly added*/
+        right: 5px;
+        /*newly added*/
+        bottom: 5px;
+        /*newly added*/
+    }
+    
+    #tilewall {
+        max-width: 750px;
+        max-height: 1000px;
+        margin: auto;
+    }
+    
+    #areaDecr {
+        max-width: 750px;
+        /*height: 100px;
+        max-height: 200px;*/
+        margin: auto;
+        font-size: 15px
+    }    
+    
+    .tile {
+        opacity: 0.8;
+        border-style: none;
+    }
+    
+    .tile-empty {
+        opacity: 0;
+    }
+    
+    .tile-nav {
+        background: darkblue;
+        color: black;
+    }
+    
+    .tile-fixed {
+        color: black;
+    }
+    
+    .footer {
+        word-wrap: break-word;
+        white-space: pre-line;
+    }
